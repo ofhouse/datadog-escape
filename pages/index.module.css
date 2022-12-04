@@ -1,0 +1,28 @@
+.container {
+  margin: 0 auto;
+  max-width: 660px;
+}
+
+.field {
+  color: #c9c9c9;
+  border: 1px solid #646269;
+  background-color: #1d1c1f;
+  display: block;
+  resize: vertical;
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+.field:focus {
+  outline: 2px solid rgba(119, 0, 255, 0.3);
+}
+
+.field[readonly] {
+  color: #57565a;
+  cursor: text;
+}
